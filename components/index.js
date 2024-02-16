@@ -1,0 +1,5 @@
+export { Hero } from './Hero/Hero'
+export { HowSection } from './How/How'
+export { WhySection } from './Why/Why'
+export { EarlyAdoptor } from './EarlyAdoptor/EarlyAdoptor'
+export { FooterSection } from './Footer/Footer.'

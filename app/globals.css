@@ -17,13 +17,30 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #351D6B;
+  background: #fff;
+}
+
+.herobg {
+  position: absolute;
+  height: 200vh;
+  top: 99px;
+  left: 0;
+  width: 100%;
+  background: url('../assets/svg/Rectanglehero.svg') no-repeat;
+  z-index: -1;
+}
+
+.early {
+  background: url('../assets/svg/Rectangle2.svg') no-repeat;
+}
+
+.first {
+  background: linear-gradient(0.05deg, rgba(228, 217, 254, 0) -0.1%, rgba(228, 217, 254, 0.7) 22.87%, #E4D9FE 44.83%, rgba(228, 217, 254, 0.7) 68.38%, rgba(228, 217, 254, 0) 100.17%);
+}
+
+.second {
+  background: linear-gradient(0.05deg, rgba(255, 161, 0, 0) -0.1%, rgba(255, 161, 0, 0.05) 22.87%, rgba(255, 161, 0, 0.15) 47.53%, rgba(255, 161, 0, 0.1) 73.15%, rgba(255, 161, 0, 0) 100.17%);
 }
 
 @layer utilities {
